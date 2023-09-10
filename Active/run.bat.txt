@@ -1,0 +1,5 @@
+
+cd /d C:\Users\bijna\PycharmProjects\nopCommerceApp
+pytest -s -v -m "sanity" --capture=tee-sys --html=Reports/report.html testCases --browser chrome
+
+
